@@ -1,0 +1,6 @@
+en:
+  js:
+    discourse_notifier:
+      include_category_settings_of_discourse_notifer: "Include category settings of discourse notifer plugin"
+      include_tag_settings_of_discourse_notifer: "Include tag setting of discourse notifier plugin"
+

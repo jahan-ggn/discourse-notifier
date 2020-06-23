@@ -1,0 +1,50 @@
+plugins:
+  discourse_notifier_enabled:
+    default: true
+    client: true
+  discourse_notifier_select_cron_pattern:
+    client: true
+    default: "week"
+    type: enum
+    choices:
+      - second
+      - minute
+      - hour
+      - week
+      - month
+      - year
+  discourse_notifier_select_cron_pattern_value:
+    client: true
+    default: 1
+    validator: "CustomIntegerValidator"
+  discourse_notifier_select_n_week_data:
+    client: true
+    default: 1
+    validator: "CustomIntegerValidator"
+  discourse_notifier_top_n_categories:
+    default: 2
+    client: true
+    validator: "CustomIntegerValidator"
+  discourse_notifier_top_n_tags:
+    default: 2
+    client: true
+    validator: "CustomIntegerValidator"
+  discourse_notifier_set_category_notification_level:
+    default: 2
+    client: true
+    type: enum
+    choices:
+      - 3
+      - 2
+      - 1
+      - 0
+  discourse_notifier_set_tag_notification_level:
+    default: 2
+    client: true
+    type: enum
+    choices:
+      - 3
+      - 2
+      - 1
+      - 0
+

@@ -1,0 +1,12 @@
+en:
+  site_settings:
+    discourse_notifier_enabled: "Enable DiscourseNotifier plugin"
+    discourse_notifier_select_cron_pattern: "Define cron pattern. NOTE: requires restart."
+    discourse_notifier_select_cron_pattern_value: "Define cron pattern value. NOTE: requires restart."
+    discourse_notifier_select_n_week_data: "Define last n week on which you want to work upon"
+    discourse_notifier_top_n_categories: "Define the value for n."
+    discourse_notifier_top_n_tags: "Define the value for n."
+    discourse_notifier_set_category_notification_level: "Define category notification level"
+    discourse_notifier_set_tag_notification_level: "Define tag notification level"
+  errors:
+    invalid_integer_value: "Value must be %{min} or greater."
