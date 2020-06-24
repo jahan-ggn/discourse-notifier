@@ -1,5 +1,5 @@
 # Discourse Notifier
-The  prime purpose is to increase the engagement on the site by sending a notification/email to less active users along with highly active users to grab their attention
+The discourse-notifier tries to increase user engagement by sending notifications for the most relevant topics based on his previous reads. The site users have a choice to use this setting or not, by default it remains off.
 
 # About
 This plugin enables the site admin to control the notification level of its users based on frequently visited categories and tags.
@@ -37,4 +37,10 @@ Tags Notification Level:- Watching
 Every 5 minutes the plugin will repeat and the top 3 categories and 3 tags will be revised considering last 10 week’s activities and notification level will change to watching
 
 # Note
-All the fields are named with a prefix "discourse notifier" to make it easy for the admin to search them in the settings
+All the fields are named with a prefix “discourse notifier” to make it easy for the admin to search them in the settings
+
+The plugin provides a setting through which a site user can refuse to change its notification level. The site users have a choice to use this setting or not, by default it remains off.
+
+The setting is provided at /preferences/profile section named as Allow site to change your notification level of frequently visited categories and Allow site to change your notification level of frequently visited tags
+
+As per the discussion response, I will change the category setting to preferences/categories location and tag setting to preferences/tags location.
